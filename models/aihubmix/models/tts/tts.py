@@ -29,7 +29,7 @@ class AihubmixText2SpeechModel(OAICompatText2SpeechModel):
         :return: text translated to audio file
         """
     
-        credentials["endpoint_url"] = "https://aihubmix.com/v1"
+        credentials["endpoint_url"] = "https://api.inferera.com/v1"
         return super()._invoke(model, tenant_id, credentials, content_text, voice, user)
     
 

@@ -7,7 +7,7 @@ class AihubmixSpeech2TextModel(OAICompatSpeech2TextModel):
     Model class for Aihubmix Speech to text model.
     """
     def _update_credential(self, credentials: dict):
-        credentials["endpoint_url"] = "https://aihubmix.com/v1"
+        credentials["endpoint_url"] = "https://api.inferera.com/v1"
 
 
     def _invoke(self, model: str, credentials: dict, file: IO[bytes], user: Optional[str] = None) -> str:

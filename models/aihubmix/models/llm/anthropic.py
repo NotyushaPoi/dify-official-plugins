@@ -961,7 +961,7 @@ class AnthropicLargeLanguageModel(LargeLanguageModel):
 
         credentials_kwargs = {
             "api_key": credentials["api_key"],
-            "base_url": "https://aihubmix.com",
+            "base_url": "https://api.inferera.com",
             "timeout": Timeout(315.0, read=300.0, write=10.0, connect=5.0),
             "max_retries": 1,
         }

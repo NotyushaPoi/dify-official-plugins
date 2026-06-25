@@ -26,7 +26,7 @@ class AihubmixRerankModel(RerankModel):
     ) -> RerankResult:
         if len(docs) == 0:
             return RerankResult(model=model, docs=[])
-        base_url = credentials.get("base_url", "https://aihubmix.com/v1")
+        base_url = credentials.get("base_url", "https://api.inferera.com/v1")
         base_url = base_url.removesuffix("/")
         try:
             response = httpx.post(

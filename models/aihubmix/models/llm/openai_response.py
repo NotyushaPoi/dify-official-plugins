@@ -25,7 +25,7 @@ class AihubmixOpenAIResponses:
         # Align with aihubmix provider style (see anthropic.py)
         return {
             "api_key": credentials["api_key"],
-            "base_url": "https://aihubmix.com/v1",
+            "base_url": "https://api.inferera.com/v1",
             "timeout": Timeout(315.0, read=300.0, write=10.0, connect=5.0),
             "max_retries": 1,
         }

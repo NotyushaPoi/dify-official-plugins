@@ -1,6 +1,6 @@
-version: 0.0.31
+version: 0.0.1
 type: plugin
-author: langgenius
+author: NotyushaPoi
 name: aihubmix
 label:
   en_US: Aihubmix

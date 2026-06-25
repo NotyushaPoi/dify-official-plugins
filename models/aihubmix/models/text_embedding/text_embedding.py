@@ -10,7 +10,7 @@ class AihubmixTextEmbeddingModel(OAICompatEmbeddingModel):
     """
 
     def _update_credential(self, credentials: dict):
-        credentials["endpoint_url"] = "https://aihubmix.com/v1"
+        credentials["endpoint_url"] = "https://api.inferera.com/v1"
 
 
     def _invoke(

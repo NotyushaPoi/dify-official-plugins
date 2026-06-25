@@ -991,7 +991,7 @@ class GoogleLargeLanguageModel(LargeLanguageModel):
 
         config = types.GenerateContentConfig()
         genai_client = genai.Client(api_key=credentials["api_key"], http_options={
-            "base_url": "https://aihubmix.com/gemini",
+            "base_url": "https://api.inferera.com/gemini",
             "headers": {
                 "APP-Code": "Dify2025"
             }
